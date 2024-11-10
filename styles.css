@@ -19,7 +19,7 @@
  }
 /* Estilos Llegó Navidad */
  .llegonavidad{
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: green;
     color: #ffffff;
     text-decoration: none;
@@ -28,32 +28,41 @@
     align-items: center;
     justify-content: center;
  }
- /* Barra de Navegación*/
+ .llegonavidad:hover{
+   background-color: #00a387; 
+ }
+ /* Barra de Navegación */
  .barranave{
     background-color: var(--color-principal);
-    width: auto;
-    height: 70px;
+    width: 100%;
+    height: 10%;
     padding: 0;
  }
  .contenidogeneral{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
+    height: 10%;
     padding-inline: 26px;
  }
  .contenidoizq{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 5%;
+ }
+ .contenidodere{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
  }
  .imgexito{
-    margin-top: 7%;
+    margin-top: 2%;
     border-radius: 20px;
  }
  .menuhamburguesa{
-    margin-top: 5%;
-    margin-left: 20%;
+    margin-top: 2%;
+    margin-left: 10%;
     cursor: pointer;
     border-radius: 50px;
     background-color: var(--color-principal);
@@ -62,29 +71,31 @@
    border-radius: 60px;
    background-color: var(--color-principal);
  }
- .linkmenuham:hover{
-   background-color: #ffffff;
- }
- .linkmenuham:focus{
-   background-color: #ffffff;
- }
  .menu{
     margin-left: 2%;
-    margin-top: 5%;
+    margin-top: 2%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     font-style: inherit;
  }
  .busqueda{
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 2%;
  }
  .busquedaexi{
-   width: 350%;
+   width: 300%;
    height: 30px;
    border-radius: 10px;
    cursor: pointer;
    font-size: 20px;
+ }
+ .iconbuscar{
+   display: flex;
+   align-items: self-end;
+ }
+ .enviopedido{
+   display: flex;
+   align-items: flex-end;
  }
  /* Estilos del slider */
  .slider {
